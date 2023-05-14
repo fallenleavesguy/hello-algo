@@ -1036,7 +1036,7 @@ $$
 
 ![常数阶、线性阶、平方阶的时间复杂度](time_complexity.assets/time_complexity_constant_linear_quadratic.png)
 
-以「冒泡排序」为例，外层循环执行 $n - 1$ 次，内层循环执行 $n-1, n-2, \cdots, 2, 1$ 次，平均为 $\frac{n}{2}$ 次，因此时间复杂度为 $O(n^2)$ 。
+以「冒泡排序」为例，外层循环执行 $n - 1$ 次，内层循环执行 $n-1, n-2, \cdots, 2, 1$ 次，总共为 $\frac{n}{2}$ 次，因此时间复杂度为 $O(n^2)$ 。
 
 $$
 O((n - 1) \frac{n}{2}) = O(n^2)
